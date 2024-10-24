@@ -1,0 +1,52 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@hookform/resolvers": "^3.9.0",
+    "@mui/material": "^5.16.6",
+    "axios": "^1.7.3",
+    "bad-words": "^3.0.4",
+    "card-validator": "^10.0.0",
+    "device": "^0.3.12",
+    "form-data": "^4.0.0",
+    "framer-motion": "^11.3.21",
+    "geoip-lite": "^1.4.10",
+    "mobile-detect": "^1.4.5",
+    "multiparty": "^4.2.3",
+    "next": "14.2.5",
+    "next-connect": "^1.0.0",
+    "nodemailer": "^6.9.14",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.52.2",
+    "react-input-mask": "^2.0.4",
+    "react-webcam": "^7.2.0",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/bad-words": "^3.0.3",
+    "@types/geoip-lite": "^1.4.4",
+    "@types/multiparty": "^0.0.36",
+    "@types/node": "22.1.0",
+    "@types/nodemailer": "^6.4.15",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@types/react-input-mask": "^3.0.5",
+    "eslint": "9.8.0",
+    "eslint-config-next": "14.2.5",
+    "typescript": "5.5.4"
+  },
+  "main": "index.js",
+  "repository": "git@gitlab.com:kimberlywrigth42/ts.git",
+  "license": "MIT"
+}
